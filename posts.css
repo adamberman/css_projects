@@ -1,0 +1,43 @@
+section {
+  width: 500px;
+
+  margin: 0 auto;
+}
+
+header {
+  height: 50px;
+  border-bottom: 1px solid lightgrey;
+}
+
+article {
+   border-left:10px solid lightgrey;
+   border-top:10px solid lightgrey;
+   border-right:10px solid lightgrey;
+}
+
+article:last-child{
+  border-bottom:10px solid lightgrey;
+}
+
+.post {
+  padding: 20px; 
+  
+}
+.avatar {
+  border: 2px solid blue;
+  display: inline-block;
+}
+.headertext{
+  display: inline-block;
+  position: absolute;
+  margin-left: 20px;
+}
+.username {
+  color: blue;
+  font-weight: bold;
+}
+
+.timestamp {
+  color: grey;
+  
+}
