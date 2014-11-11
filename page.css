@@ -26,6 +26,18 @@ nav {
   height: 20px;
   float:left;  
 }
+.num{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: -4;
+  border-radius: 50%;
+  background: black;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  
+}
+
 .menu {
   border-left: 4px solid black;
   display: inline-block;
@@ -36,8 +48,46 @@ nav {
   height: 20px;
   margin-left: auto;
   margin-right: -4;
+  position: relative;
 }
 
+.menu#notifications:hover{
+  background: black;
+}
+
+#notifications:hover .notificationslist {
+  visibility: visible;
+}
+#notifications:hover .num {
+  background: red;
+}
+
+.notificationslist {
+  position: absolute;
+  width: 300px;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  top: 44px;
+  left: -4px;
+  z-index: 20;
+  visibility: hidden;
+}
+.notificationslist ul{
+  padding: 0px;
+  margin: 0px;
+}
+.notificationslist li {
+  background: white;
+  border-bottom: 4px solid black;
+  list-style-type: none;
+  width: 280px;
+  display: inline-block;
+  color: black;
+  padding:10px;
+}
+.notificationslist li#even {
+  background: grey;
+}
 .menugroup{
   float:right;
 }
