@@ -1,0 +1,58 @@
+body {
+  margin: 0px;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+  padding-right: 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section a{
+  color: blue;
+}
+.header-group {
+  float: right;
+  padding-right: 15px;
+}
+header {
+  padding: 25px;
+  height: 50px;
+}
+section {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.text {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 575px;
+  height: 30px;
+}
+
+footer {
+  background: lightgrey;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  height: 20px;
+  padding: 15px;
+}
+
+.business{
+  float: left;
+}
+
+.settings{
+  float: right;
+}
